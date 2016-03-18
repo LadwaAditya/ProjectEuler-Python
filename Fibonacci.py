@@ -9,7 +9,6 @@ class Fibonacci:
             current = first + second
             if current % 2 == 0:
                 self.sumFibo += current
-
             first = second
             second = current
 

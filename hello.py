@@ -1,7 +1,6 @@
 import Multiply as mul
 import Fibonacci as fibo
 
-print "Hello world"
 
 mul.Multiple(1000).showMultiple()
 
