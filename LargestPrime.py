@@ -3,7 +3,7 @@ class LargestPrime:
     primeFactor = 0
 
     def __init__(self):
-        for i in range(2, self.limit / 2):
+        for i in range(2, self.limit / 200000):
             if self.limit % i == 0:
                 self.checkPrime(i)
 
