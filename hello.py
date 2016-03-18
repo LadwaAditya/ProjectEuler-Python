@@ -7,4 +7,4 @@ mul.Multiple(100).showMultiple()
 
 fibo.Fibonacci(4000000).showFibo()
 
-primeNumber.LargestPrime.displayPrime()
+primeNumber.LargestPrime().displayPrime()

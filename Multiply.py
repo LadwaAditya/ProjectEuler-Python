@@ -9,7 +9,4 @@ class Multiple:
                     self.sumMultiply += i
 
     def showMultiple(self):
-        print self.sumMultiply
-
-
-
+        print(self.sumMultiply)

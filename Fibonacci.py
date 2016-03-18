@@ -13,4 +13,4 @@ class Fibonacci:
             second = current
 
     def showFibo(self):
-        print self.sumFibo
+        print(self.sumFibo)

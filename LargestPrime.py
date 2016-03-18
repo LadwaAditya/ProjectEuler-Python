@@ -8,7 +8,7 @@ class LargestPrime:
                 self.checkPrime(i)
 
     def displayPrime(self):
-        print self.primeFactor
+        print(self.primeFactor)
 
     def checkPrime(self, num):
         for j in range(2, num / 2):
