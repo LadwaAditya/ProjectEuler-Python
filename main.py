@@ -1,6 +1,7 @@
-import Multiply as mul
-import Fibonacci as fibo
-import LargestPrime as primeNumber
+from source import LargestPrime as primeNumber
+from source import Multiply as mul
+
+from source import Fibonacci as fibo
 
 mul.Multiple(1000).showMultiple()
 mul.Multiple(100).showMultiple()
