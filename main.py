@@ -1,7 +1,7 @@
 from source import LargestPrime as primeNumber
 from source import Multiply as mul
-
 from source import Fibonacci as fibo
+from source import Palindrom as palin
 
 # mul.Multiple(1000).showMultiple()
 # mul.Multiple(100).showMultiple()
@@ -9,4 +9,4 @@ from source import Fibonacci as fibo
 #
 # primeNumber.LargestPrime().displayPrime()
 
-
+palin.Palindrom().displayPrime();
