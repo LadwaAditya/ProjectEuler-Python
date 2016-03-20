@@ -2,6 +2,7 @@ from source import LargestPrime as primeNumber
 from source import Multiply as mul
 from source import Fibonacci as fibo
 from source import Palindrom as palin
+from source import SmallestMultiple as small
 
 # mul.Multiple(1000).showMultiple()
 # mul.Multiple(100).showMultiple()
@@ -9,4 +10,6 @@ from source import Palindrom as palin
 #
 # primeNumber.LargestPrime().displayPrime()
 
-palin.Palindrom().displayPrime();
+# palin.Palindrom().displayPrime()
+
+small.SmallestMultiple().printMultiple()
