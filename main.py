@@ -3,6 +3,7 @@ from source import Multiply as mul
 from source import Fibonacci as fibo
 from source import Palindrom as palin
 from source import SmallestMultiple as small
+from source import SumSquareDiff as sumSquare
 
 # mul.Multiple(1000).showMultiple()
 # mul.Multiple(100).showMultiple()
@@ -12,4 +13,6 @@ from source import SmallestMultiple as small
 
 # palin.Palindrom().displayPrime()
 
-small.SmallestMultiple().printMultiple()
+# small.SmallestMultiple().printMultiple()
+
+sumSquare.SumSquareDiff().displaySumSquareDiff()

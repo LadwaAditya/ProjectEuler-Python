@@ -8,6 +8,7 @@ class SumSquareDiff:
             self.sumSquare += i * i
             self.squareSum += i
         self.squareSum = self.squareSum * self.squareSum
+        self.sumSquareDiff = self.squareSum - self.sumSquare
 
     def displaySumSquareDiff(self):
         print(self.sumSquareDiff)
