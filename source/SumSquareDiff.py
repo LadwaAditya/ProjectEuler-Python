@@ -5,3 +5,9 @@ class SumSquareDiff:
 
     def __init__(self):
         for i in range(1, 100):
+            self.sumSquare += i * i
+            self.squareSum += i
+        self.squareSum = self.squareSum * self.squareSum
+
+    def displaySumSquareDiff(self):
+        print(self.sumSquareDiff)
