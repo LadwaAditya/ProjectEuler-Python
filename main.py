@@ -4,6 +4,7 @@ from source import Fibonacci as fibo
 from source import Palindrom as palin
 from source import SmallestMultiple as small
 from source import SumSquareDiff as sumSquare
+from source import ThousandPrime as primeThousand
 
 # mul.Multiple(1000).showMultiple()
 # mul.Multiple(100).showMultiple()
@@ -15,4 +16,6 @@ from source import SumSquareDiff as sumSquare
 
 # small.SmallestMultiple().printMultiple()
 
-sumSquare.SumSquareDiff().displaySumSquareDiff()
+# sumSquare.SumSquareDiff().displaySumSquareDiff()
+
+primeThousand.ThousandPrime().displayThousand()
