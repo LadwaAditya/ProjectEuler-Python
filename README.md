@@ -8,9 +8,9 @@ Alt-H1 Python Programes for Project Euler
 ## Class name
 
 Problem 1: Multiply.py <br/>
-Problem 2: Fibonacci.py
-Problem 3: LargestPrime.py
-Problem 4: Palindrom.py
-Problem 5: SmallestMultiple.py
-Problem 6: SumSquareDiff.py
-Problem 7: ThousandPrime.py
+Problem 2: Fibonacci.py <br/>
+Problem 3: LargestPrime.py <br/>
+Problem 4: Palindrom.py <br/>
+Problem 5: SmallestMultiple.py <br/>
+Problem 6: SumSquareDiff.py <br/>
+Problem 7: ThousandPrime.py <br/>
