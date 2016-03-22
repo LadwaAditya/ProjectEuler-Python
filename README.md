@@ -1,4 +1,4 @@
-Alt-H1 Python Programes for Project Euler
+# Python Programes for Project Euler
 
 ## How to use
 ``
