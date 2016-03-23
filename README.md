@@ -14,3 +14,5 @@ Problem 4: Palindrom.py <br/>
 Problem 5: SmallestMultiple.py <br/>
 Problem 6: SumSquareDiff.py <br/>
 Problem 7: ThousandPrime.py <br/>
+Problem 8: LargestProductSeries.py <br/>
+
