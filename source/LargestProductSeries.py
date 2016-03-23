@@ -60,3 +60,16 @@ class LargestProductSeries:
            9, 5, 6, 1, 8, 8, 2, 6, 7, 0, 4, 2, 8, 2, 5, 2, 4, 8, 3, 6, 0, 0, 8, 2, 3, 2, 5, 7, 5, 3,
            0, 4, 2,
            0, 7, 5, 2, 9, 6, 3, 4, 5, 0]
+    productSeries = 0
+
+    def __init__(self):
+        temp = 1
+        for i in range(0, 1000 - 4):
+            for j in range(i, i + 3):
+                temp = 1
+                temp = temp * self.num[j]
+            if self.productSeries < temp:
+                self.productSeries = temp
+
+    def displayProduct(self):
+        print(self.productSeries)
