@@ -63,10 +63,10 @@ class LargestProductSeries:
     productSeries = 0
 
     def __init__(self):
-        temp = 1
-        for i in range(0, 1000 - 4):
-            for j in range(i, i + 3):
-                temp = 1
+
+        for i in range(0, 1000 - 13):
+            temp = 1
+            for j in range(i, i + 13):
                 temp = temp * self.num[j]
             if self.productSeries < temp:
                 self.productSeries = temp
